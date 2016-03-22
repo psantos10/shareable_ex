@@ -1,0 +1,2 @@
+<h1><%= @user.name %></h1>
+<h3 style="margin-top: 0;">@<%= @user.username %></h3>

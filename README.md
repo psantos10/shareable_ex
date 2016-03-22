@@ -1,6 +1,8 @@
 # ShareableEx
 
-To start your Phoenix app:
+Another [Medium](https://medium.com/) like Blogging Platform.
+
+To start your ShareableEx app:
 
   * Install dependencies with `mix deps.get`
   * Create and migrate your database with `mix ecto.create && mix ecto.migrate`
@@ -9,7 +11,7 @@ To start your Phoenix app:
 
 Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
 
-Ready to run in production? Please [check our deployment guides](http://www.phoenixframework.org/docs/deployment).
+To run in production, Please [check the deployment guides](http://www.phoenixframework.org/docs/deployment).
 
 ## Learn more
 

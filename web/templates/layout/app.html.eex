@@ -19,7 +19,37 @@
 
   <body>
 
-    <%= render @view_module, @view_template, assigns %>
+    <div class="container">
+      <div class="header clearfix">
+        <nav style="margin-top: 15px;">
+          <ul class="nav nav-pills pull-right">
+            <li role="presentation"><a href="/sign_in">Sign in</a></li>
+            <li role="presentation"><a href="/sign_up">Sign up</a></li>
+          </ul>
+        </nav>
+        <h3 class="text-muted">
+          <div style="float: left; margin-right: 5px;">
+            <img src="/images/logo128.png" alt="ShareableEx" width="50">
+          </div>
+          <div style="float: left; line-height: 15px; margin-top: 10px;">
+            Shareable<br>
+            <em style="font-size: 15px">A new way to share ideas...</em>
+          </div>
+        </h3>
+      </div>
+    </div>
+
+    <div class="container">
+      <%= render @view_module, @view_template, assigns %>
+    </div><!-- //.container -->
+
+    <footer>
+      <div class="container">
+        <hr>
+        Powered by:
+        <img src="/images/phoenix.png" alt="Phoenix Framework" width="150">
+      </div><!-- // .container -->
+    </footer>
 
     <script src="<%= static_path(@conn, "/js/app.js") %>"></script>
   </body>
